@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo tar -xvzf SampleWebApp.war
+echo "helloworld";
