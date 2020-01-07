@@ -1,2 +1,2 @@
 #!/bin/bash
-tar -xvzf SampleWebApp.war
+sudo tar -xvzf SampleWebApp.war
