@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "helloworld";
+sudo systemctl start tomcat.service

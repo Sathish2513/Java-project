@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /opt/tomcat/apache-tomcat-8.5.50/webapps/ROOT
+    destination:/opt/tomcat/webapps/ROOT
 hooks:
   BeforeInstall:
     - location: install_dependencies.sh
