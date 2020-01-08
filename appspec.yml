@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination:/opt/tomcat/webapps/ROOT
+    destination: /opt/tomcat/webapps/ROOT
 hooks:
-  BeforeInstall:
+    BeforeInstall:
     - location: install_dependencies.sh
       timeout: 300
       runas: root
